@@ -1,0 +1,163 @@
+:root{
+    --blue:#34568B
+}
+body{
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+::selection{
+    background: yellowgreen;
+    color: antiquewhite;
+}
+
+.container input{
+    border-radius: 20px;
+    text-size-adjust:calc(0.8);  
+}
+
+
+input::placeholder{
+    color: darkgreen;
+    font-size: 20px;
+    
+}
+textarea::placeholder{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    height: 40px;
+    background: var(--blue);
+    border: 0;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: var(--blue) 3px solid;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+header #branding{
+    float:left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a {
+    color:var(--blue);
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+#showcase{
+    min-height: 400px;
+    background: url('showcase\ \(1\).jpg') no-repeat 0 -600px;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#newsletter{
+    padding: 15px;
+    color:#ffffff;
+    background: #35424a;
+}
+#newsletter h1{
+    float: left;
+    margin-top: auto;
+}
+#newsletter form{
+    float: right;
+    margin-top: auto;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+#boxes{
+    margin-top: 20px;
+}
+.box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+}
+.box img{
+    width: 90px;
+}
+aside#sidebar{
+    float:right;
+    width: 30%;
+    margin-top: 10px;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+article#main-col{
+    float:left;
+    width: 60%;
+}
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: var(--blue);
+    text-align: center;
+}
